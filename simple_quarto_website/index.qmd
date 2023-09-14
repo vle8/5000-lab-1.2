@@ -1,0 +1,66 @@
+---
+title: "simple_quarto_website"
+toc: TRUE
+bibliography: reference.bib
+---
+### Header 1
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+### Header 2
+<table border="0">
+ <tr>
+    <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</td>
+    <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</td>
+ </tr>
+</table>
+
+### Header 3
+* Leorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+* Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+* Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+* Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+
+### Markdown Table
+Sport| Number of Players on Team
+-----|-----:
+Basketball|15
+Football|50
+Soccer|20
+
+### LaTex Math Equation
+Here is a inline-math equation: $15*\frac35 * \sqrt{49} = 63$
+
+Here is a non inline-math equation: $$7,600*0.17+8 = 1,300$$
+
+### Adding Quotes
+> *This is an italicized quote*
+
+### Video
+{{< video https://www.youtube.com/watch?v=Zi5H7UwZrGg >}}
+
+### Pictures
+![](/images/HealyHall.png){width=600, height=400}
+
+![](/images/CooperField.png){width=600, height=400}
+
+### Mermaid Diagram
+Very simplified explanation of applying to Georgetown's DSAN program
+``` {mermaid}
+flowchart LR
+A[Apply to DSAN] --> B(Waiting Period)
+B --> C{Decision Receieved}
+C --> D[Accepted]
+C --> E[Rejected]
+```
+
+### Citation
+
+@tippmann2015programming
+
+@van2007python
+
+
+
+### Footnote
+[^1]: This is a footnote

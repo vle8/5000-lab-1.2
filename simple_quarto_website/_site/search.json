@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "simple_quarto_website",
+    "section": "",
+    "text": "Header 1\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\n\nHeader 2\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\n\n\n\n\n\nHeader 3\n\nLeorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\nUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\nDuis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.\nExcepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\n\n\nMarkdown Table\n\n\n\nSport\nNumber of Players on Team\n\n\n\n\nBasketball\n15\n\n\nFootball\n50\n\n\nSoccer\n20\n\n\n\n\n\nLaTex Math Equation\nHere is a inline-math equation: \\(15*\\frac35 * \\sqrt{49} = 63\\)\nHere is a non inline-math equation: \\[7,600*0.17+8 = 1,300\\]\n\n\nAdding Quotes\n\nThis is an italicized quote\n\n\n\nVideo\n\n\n\nPictures\n\n\n\n\nMermaid Diagram\nVery simplified explanation of applying to Georgetown’s DSAN program\n\n\n\n\nflowchart LR\nA[Apply to DSAN] --&gt; B(Waiting Period)\nB --&gt; C{Decision Receieved}\nC --&gt; D[Accepted]\nC --&gt; E[Rejected]\n\n\n\n\n\n\n\nCitation\nTippmann (2015)\nVan Rossum et al. (2007)\n\n\n\n\n\n\n\n\nFootnote\n\nTippmann, Sylvia. 2015. “Programming Tools: Adventures with r.” Nature 517 (7532): 109–10.\n\n\nVan Rossum, Guido et al. 2007. “Python Programming Language.” In USENIX Annual Technical Conference, 41:1–36. 1. Santa Clara, CA."
+  },
+  {
+    "objectID": "slides/slides.html#citation",
+    "href": "slides/slides.html#citation",
+    "title": "Presentation",
+    "section": "Citation",
+    "text": "Citation\n\n\nTippmann, Sylvia. 2015. “Programming Tools: Adventures with r.” Nature 517 (7532): 109–10."
+  },
+  {
+    "objectID": "slides/slides.html#picture-1---healy-hall",
+    "href": "slides/slides.html#picture-1---healy-hall",
+    "title": "Presentation",
+    "section": "Picture 1 - Healy Hall",
+    "text": "Picture 1 - Healy Hall"
+  },
+  {
+    "objectID": "slides/slides.html#picture-2---cooper-field",
+    "href": "slides/slides.html#picture-2---cooper-field",
+    "title": "Presentation",
+    "section": "Picture 2 - Cooper Field",
+    "text": "Picture 2 - Cooper Field"
+  },
+  {
+    "objectID": "slides/slides.html#python-code-cell",
+    "href": "slides/slides.html#python-code-cell",
+    "title": "Presentation",
+    "section": "Python code cell",
+    "text": "Python code cell\n\nimport matplotlib.pyplot as plt\nimport numpy as np\nx=np.linspace(0,50,100)\nplt.plot(x, np.sin(x))\nplt.show()"
+  }
+]
