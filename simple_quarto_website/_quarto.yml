@@ -6,9 +6,9 @@ website:
   navbar:
     left:
       - href: index.qmd
-        text: Home
+        text: HOME
       - href: about.ipynb
-        text: About
+        text: ABOUT      
 
 format:
   html:
